@@ -1,3 +1,10 @@
+.navigationText {
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .navigationContainer {
     display: flex;
     justify-content: center;

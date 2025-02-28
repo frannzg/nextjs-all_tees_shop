@@ -4,16 +4,18 @@ import "./styles/header.css";
 
 export default function Header() {
     return (
-        <div className="navigationContainer">
+        <div className="navigationContainer navigationText">
             <nav className="p-4 bg-gray-800 text-white flex gap-4 navigationBar">
                 <div>
+                <Link href="/">
                     <Image
-                        className="dark:invert"
+                        className=""
                         src="/assets/img/logo.webp"
                         alt="Vercel logomark"
-                        width={20}
+                        width={140}
                         height={20}
                     />
+                </Link>
                 </div>
                 <div style={{ display: "flex", gap: "1rem" }}>
                     <Link href="/">Home</Link>
