@@ -20,7 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Save and see your changes instantly.</li>
+          <li style={{color: "red"}}>Save and see your changes instantly.</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
@@ -88,7 +88,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="/assets/img/vercel.svg"
             alt="Globe icon"
             width={16}
             height={16}
