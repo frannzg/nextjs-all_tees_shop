@@ -1,7 +1,7 @@
 // 📁 components/Carousel.js
 "use client";
 import React, { useState, useEffect } from "react";
-import styles from "@/components/styles/carousel.css";
+import styles from "@/components/styles/carousel.module.css";
 import Link from "next/link";
 
 
