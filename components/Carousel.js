@@ -79,7 +79,7 @@ const Carousel = () => {
             alt="Imagen 3"
           />
           <div className={`${styles.textOverlay} ${styles.contenedorTexto}`}>
-            <h1 className={styles.title}>Innovación y diseño</h1>
+            <h1 className={styles.title}>Innovación e diseño</h1>
             <p className={styles.description}>Diseños únicos que marcan la diferencia en cada detalle.</p>
             <Link href="/about">
               <button className={styles.btnVerMas}>Ver más</button>
