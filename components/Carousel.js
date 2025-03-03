@@ -1,7 +1,7 @@
 // 📁 components/Carousel.js
 "use client";
 import React, { useState, useEffect } from "react";
-import styles from "@/components/styles/Carousel.module.css";
+import styles from "@/components/styles/carousel.module.css";
 import Link from "next/link";
 
 
@@ -52,7 +52,7 @@ const Carousel = () => {
             src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"
             alt="Imagen 1"
           />
-          <div className={styles.textOverlay}>
+          <div className={`${styles.textOverlay} ${styles.contenedorTexto}`}>
             <h1 className={styles.title}>Bienvenidos a la aventura</h1>
             <p className={styles.description}>Descubre productos sorprendentes que te llevarán al siguiente nivel.</p>
             <Link href="/products">
@@ -65,7 +65,7 @@ const Carousel = () => {
             src="https://wallpapers.com/images/high/1920-x-1080-nature-desktop-7h76hbdcrtpawe3i.webp"
             alt="Imagen 2"
           />
-          <div className={styles.textOverlay}>
+          <div className={`${styles.textOverlay} ${styles.contenedorTexto}`}>
             <h1 className={styles.title}>Explora la naturaleza</h1>
             <p className={styles.description}>Conecta con el entorno natural y encuentra inspiración.</p>
             <Link href="/contact">
@@ -78,7 +78,7 @@ const Carousel = () => {
             src="https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg"
             alt="Imagen 3"
           />
-          <div className={styles.textOverlay}>
+          <div className={`${styles.textOverlay} ${styles.contenedorTexto}`}>
             <h1 className={styles.title}>Innovación y diseño</h1>
             <p className={styles.description}>Diseños únicos que marcan la diferencia en cada detalle.</p>
             <Link href="/about">

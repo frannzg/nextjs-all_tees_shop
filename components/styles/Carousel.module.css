@@ -99,6 +99,12 @@
     z-index: 1;
 }
 
+.contenedorTexto {
+    background-color: #808080de;
+    padding: 2rem 1.5rem;
+    border-radius: 25px;
+}
+
 /* Estilo para el título */
 .title {
     font-family: monospace;
@@ -112,4 +118,10 @@
     font-family: monospace;
     font-size: 1rem;
     margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contenedorTexto {
+        width: 90% !important; /* Ocultamos los enlaces para escritorio en móviles */
+    }
 }
