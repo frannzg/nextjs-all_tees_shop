@@ -44,9 +44,11 @@
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 15px; /* Separar el botón del párrafo */
+    font-family: monospace;
 }
 
 .btnVerMas:hover {
+    font-family: monospace;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -99,6 +101,7 @@
 
 /* Estilo para el título */
 .title {
+    font-family: monospace;
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
@@ -106,6 +109,7 @@
 
 /* Estilo para la descripción */
 .description {
+    font-family: monospace;
     font-size: 1rem;
     margin: 10px 0;
 }
